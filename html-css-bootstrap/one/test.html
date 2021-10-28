@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Grade Generator</title>
+</head>
+<body>
+
+    <h3>Please enter the follwing details</h3>
+    <!-- Input form -->
+    <div>
+        <div style="margin:10px;">
+            <label for="studentName">Student's Name</label>
+            <input type="text" name="studentName" id="studentName">
+        </div>
+
+        <div style="margin:10px;">
+            <label for="midtermGrade">Midterm grade</label>
+            <input type="text" name="midtermGrade" id="midtermGrade">
+        </div>
+
+        <div style="margin:10px;">
+            <label for="finalGrade">Final grade</label>
+            <input type="text" name="finalGrade" id="finalGrade">
+        </div>
+
+        <div style="margin:10px;">
+            <label for="homeworkGrade">Homework grade</label>
+            <input type="text" name="homeworkGrade" id="homeworkGrade">
+        </div>
+
+        <div style="margin:10px;">
+            <label for="attendanceGrade">Attendance grade</label>
+            <input type="text" name="attendanceGrade" id="attendanceGrade">
+        </div>
+    </div>
+
+    <button onclick="calculateCourseGrade()">Submit</button>
+
+    <!-- Javascipt generated table -->
+    <div style="margin-top: 20px;">
+        <table id="gradeTable">
+            <tr>
+                <td>Name</td>
+                <td>Attendance</td>
+                <td>Homework</td>
+                <td>Midterm</td>
+                <td>Final</td>
+                <td>Course Grade</td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+
+<script>
+    function calculateCourseGrade() {
+        var studentName = document.getElementById('studentName').value;
+        var midtermGrade = document.getElementById('midtermGrade').value;
+        var finalGrade = document.getElementById('finalGrade').value;
+        var homeworkGrade = document.getElementById('homeworkGrade').value;
+        var attendanceGrade = document.getElementById('attendanceGrade').value;
+        //calculation of course grade
+        var courseGrade = (midtermGrade * 0.3) + (finalGrade * 0.4) + (homeworkGrade * 0.2) + (attendanceGrade * 0.1); 
+
+        // creating array of items so that we can use them easily in loop implemented below
+        var rowItemArr = [studentName, attendanceGrade, homeworkGrade, midtermGrade, finalGrade, courseGrade]; 
+        var table = document.getElementById('gradeTable');
+
+        //creating a table row node
+        var tableRow = document.createElement("TR");
+
+        // this loop is used to get data from rowItemArr in sequence and append the td to table row
+        for (var x = 0; x < rowItemArr.length; x++) {
+            var tableData = document.createElement("TD");
+            var tdText = document.createTextNode(rowItemArr[x]);
+            tableData.appendChild(tdText);
+            tableRow.appendChild(tableData);
+        }
+        
+        // we are now appending our final row in the table
+        table.appendChild(tableRow);
+
+        // function used to reset the form
+        resetForm();
+    }
+
+    function resetForm() {
+        document.getElementById('studentName').value = '';
+        document.getElementById('midtermGrade').value = '';
+        document.getElementById('finalGrade').value = '';
+        document.getElementById('homeworkGrade').value = '';
+        document.getElementById('attendanceGrade').value = '';
+    }
+</script>
+</html>

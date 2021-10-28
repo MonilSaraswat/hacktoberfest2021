@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/be196be553.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Pathway+Gothic+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Vidaloka&display=swap" rel="stylesheet">
+    <title>Assignment 1</title>
+
+    <style>
+        
+        .container{
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        
+        .top-right{
+            position: absolute;
+            top: 8px;
+            right: 16px;
+        }
+
+        .top-left{
+            position: absolute;
+            top:8px;
+            left: 16px;
+        }
+
+
+        body{
+            margin-left: 180px;
+            background-color: rgba(225, 245, 254, 0.384);
+        }
+
+        .first{
+            float:left;
+            overflow:inline;
+            background-color: white;
+        }   
+
+        .column{
+            float:left;
+            width:33%;
+
+        }
+        .row:after{
+            clear: both;
+            margin:20px 30px;
+            content: "";
+        }
+        .row{
+            margin-bottom: 25px;
+            margin-left: 25px;
+            padding: 22px;
+        }
+
+        .parent-border{
+            border: 2px solid rgba(128, 128, 128, 0.637);
+            background-color: white;
+            border-radius: 10px;
+        }
+        
+        .pathway{
+            font-family: 'Pathway Gothic One', sans-serif;
+        }
+
+        .vidaloka{
+            font-family: 'Vidaloka', serif;
+        }
+
+        .monte{
+            font-family: 'Pathway Gothic One', sans-serif;
+        }
+
+        .poppins{
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .bigfont{
+            font-size: 25px;
+        }
+
+        .mediumfont{
+            font-size: 20px;
+            letter-spacing: 2px;
+            color: gray;
+        }
+
+        .mediumfont-list{
+            font-size: 15px;
+            letter-spacing: 2px;
+            color: gray;
+        }
+
+        .smallfont{
+            font-size: 10px;
+            letter-spacing: 2px;
+        }
+
+
+        .letter-spacing{
+            letter-spacing: 2px;
+            padding: 5px;
+        }
+
+        .view{
+            color: green;
+            font-size: 20px;
+        }
+
+        .imgover{
+            background-color:rgba(128, 128, 128, 0.829);
+            border-radius: 20px;
+            margin-right: 10px;
+            padding: 10px;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+
+        .mostloved{
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: gray;
+            background-color: rgba(255, 255, 255, 0.164);       
+            padding: 7px;
+                 
+        }
+        .red{
+            color:red;
+        }
+
+        .promotextbig{
+            color: purple;
+            font-size: 18px;
+            letter-spacing: 1px;
+        }
+
+        .promotext{
+            color: purple;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+
+        .parent-border .inner{
+            background-color:white;
+            padding:28px;
+        }
+        .gray{
+            color:gray;
+        }
+        .uppercase{
+            text-transform: uppercase;
+            font-weight: bold;
+            padding-top: 20px;
+        }
+        .viewfoot{
+            color:green;
+            text-align: center;
+            font-size: 18px;
+            background-color:#E1F5FE;
+        }
+        .lightgray{
+        
+            color: #424242;
+            font-size: 15px;
+        }
+        .green{
+            color:green;
+        }
+        hr{
+            margin: 0px 0px;
+        }
+        .image{
+            width: 350px;
+            height: 191px;
+            margin: 0px 0px ;
+            border-radius: 6px 0px 0px 0px;
+        }
+        .strike{
+            text-decoration: line-through ;
+            font-weight: bold;
+        }
+        .right{
+            text-align: right;
+        }
+        .center{
+            width: 50%;
+            margin: auto;
+        }
+        .less-center{
+            width:70%;
+            margin: auto;
+        }
+
+    
+    </style>
+
+
+</head>
+<body>
+    <section class="parent-border">
+
+    <section style="background-color: white;">
+    <section class="first">
+
+        <div class="container">
+
+            <img src="image.jpg" class="image"/>
+            &nbsp;&nbsp;&nbsp;
+            <div class="top-right imgover pathway">4 Rooms left</div>
+            <div class="top-left mostloved"><i class="fas fa-heart red"></i>&nbsp;&nbsp;Most Loved</div>
+
+        </div>
+        </section>
+
+        <section class="inner">
+                
+            <div>    
+                <div class="pathway bigfont">Lotus Suite</div>
+                <div class="monte mediumfont">TV | Air Conditiong | Wi-fi | Electronic Safe | Tea Coffee Ma...<span class="monte view">View More</span></div>
+                <div>
+                <span><i class="fas fa-user-friends">&nbsp;&nbsp;</i>2</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="vidaloka"><i class="fas fa-bed"></i>&nbsp;&nbsp;King Size</span>
+                </div>
+                <br>
+                <br>
+                <div class="promotextbig poppins"><i class="fas fa-tags"></i>&nbsp;SUMMER25,  PROMO10</div>
+                
+            </div>
+
+        </section>
+    </section>
+    <hr>
+
+  <div class="row">
+
+    <div class="column">
+        <div class="pathway mediumfont gray">AC Room Only</div>
+        <div class="monte mediumfont-list uppercase green">View Details</div>
+    </div>
+
+    <div class="column">
+    <div class="center">
+            <i class="fas fa-plus-circle gray fa-lg"></i>
+            &nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;
+            <i class="fas fa-minus-circle fa-lg gray"></i>   
+    </div>
+    <br>
+    <div class="poppins promotext less-center">*Applied SUMMER25</div>    
+    </div>
+
+    <div class="column poppins mediumfont-list lightgray right">
+
+        <div class="strike">INR 14000</div>
+        <div>&#8377;10,500/night</div>
+        <div>Non Refundable</div>
+
+    </div>
+
+  </div>
+
+  <br>
+  <hr>
+
+  <div class="row">
+
+        <div class="column">
+    
+            <div class="pathway mediumfont gray">Non-AC with Breakfast</div>
+            <div class="monte mediumfont-list uppercase green">View Details</div>
+
+        </div>
+    
+        <div class="column">
+        <div class="center">
+            <i class="fas fa-plus-circle gray fa-lg"></i>
+            &nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;
+            <i class="fas fa-minus-circle gray fa-lg"></i>     
+           </div>
+        <br>
+            <div class="poppins promotext less-center">*Applied SUMMER25</div>
+        </div>
+    
+        <div class="column poppins mediumfont-list lightgray right">
+    
+            <div class="strike">INR 14000</div>
+            <div>&#8377;10,500/night</div>
+            <div>Non Refundable</div>
+    
+        </div>
+    
+    
+      </div>
+      <br>
+      <hr>
+
+      <div class="row">
+
+            <div class="column">
+        
+                <div class="pathway mediumfont gray">AC Room with Breakfast Dinner</div>
+                <div class="monte mediumfont-list uppercase green">View Details</div>
+        
+            </div>
+        
+            <div class="column">
+            <div class="center">
+                    <i class="fas fa-plus-circle gray fa-lg"></i>
+                    &nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;
+                    <i class="fas fa-minus-circle gray fa-lg"></i>   
+            </div>
+            <br>
+                <div class="poppins promotext less-center">*Applied SUMMER25</div>
+            </div>
+        
+            <div class="column poppins mediumfont-list lightgray right">
+        
+                <div class="strike">INR 14000</div>
+                <div>&#8377;10,500/night</div>
+                <div>Non Refundable</div>
+        
+            </div>
+          </div>
+          <br>
+<hr>
+<div class="viewfoot monte letter-spacing">View All</div>
+
+</section>
+
+</body>
+</html>
