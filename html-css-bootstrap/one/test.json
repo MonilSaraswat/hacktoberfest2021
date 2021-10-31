@@ -1,0 +1,278 @@
+{
+    'guest_id': 169050,
+    'emails': ['monilsaraswat@gmail.com'],
+    'property_unit_id': 719,
+    'account_id': 388,
+    'folio_number': 'VIKPg0003060',
+    'guest'│·········: {
+        'id': 168822,
+        'address': {
+            'id': 8383,
+            'address_line1': '8765',
+            'address_line2': None,
+            'postal_code': '9876543',
+            'city': 'Eckeroe',
+            'state_province': 'Alands landsbygd',
+            'phone': '',
+            'country': │·········{
+                'id': 267,
+                'name': 'Aland Islands',
+                'iso_code': 'AX',
+                'isd_code': '358-18',
+                'geoname_id': 661882
+            },
+            'address_mobile_nos': [],
+            'state_province_info': {
+                'name': 'Ålands landsbygd',
+                'id': 168,
+                'name│·········_ascii': 'Alands landsbygd',
+                'geoname_id': 9611692
+            },
+            'city_info': {
+                'name': 'Eckerö',
+                'id': 27329,
+                'name_ascii': 'Eckeroe',
+                'geoname_id': 3041807
+            }
+        },
+        'contacts': [],
+        'guest_company_detail': {},
+        'gu│·········est_personal_detail': {
+            'dob': '2020-09-16',
+            'anniversary': None,
+            'nationality': {
+                'id': 267,
+                'name': 'Aland Islands',
+                'iso_code': 'AX',
+                'isd_code': '358-18',
+                'geoname_id': 661882
+            }
+        },
+        'guest_interna│·········tional_datails': {},
+        'guid': 'd7ac76da-1c44-441c-a1b9-e6998c50cede',
+        'version': 1614841561104667,
+        'title': 0,
+        'first_name': 'Monil',
+        'middle_name': None,
+        'last_name': 'test-1',
+        'iso_code': None,
+        │·········'mobile_isd': None,
+        'mobile': '9309215590',
+        'email_address': 'monil.saraswat@djubo.com',
+        'preferences': None,
+        'property_name': 1056,
+        'account': 388,
+        'documents': [{
+                    'id': 1566,
+                    'guest_id': 168822,
+                    │·········'documentType': 1,
+                    'expiry': None,
+                    'documentNumber': None,
+                    'fileName': 'temp1.png',
+                    'mimeType': 'image/png',
+                    'imageId': 'f9de020c-947e-4610-b04f-46601eddfc90',
+                    'attachmentSrc': '/download-core_m│·········etadata-service-file/accounts/388/properties/1056/upload-docs/f9de020c-947e-4610-b04f-46601eddfc90/',
+                    'isCreated': False
+                }, {
+                    'id': 1577,
+                    'guest_id': 168822,
+                    'documentType': 1,
+                    'expiry': None,
+                    'doc│·········
+                    umentNumber ': None, '
+                    fileName ': '
+                    temp3.png ', '
+                    mimeType ': '
+                    image / png ', '
+                    imageId ': '
+                    8 ccab371 - b5de - 48 cb - 8 f8f - d5ddf39a54aa ', '
+                    attachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / proper│·········
+                    ties / 1056 / upload - docs / 8 ccab371 - b5de - 48 cb - 8 f8f - d5ddf39a54aa / ', '
+                    isCreated ': False}, {'
+                    id ': 1631, '
+                    guest_id ': 168822, '
+                    documentType ': 1, '
+                    expiry ': None, '
+                    documentNumber ': None, '
+                    fileName ': '
+                    id.jpeg│········· ', '
+                    mimeType ': '
+                    image / jpeg ', '
+                    imageId ': '
+                    69438853 - 09 fc - 484 b - b0c9 - cbc527ae019c ', '
+                    attachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / properties / 1056 / upload - docs / 69438853 - 09 fc - 484 b - │·········
+                    b0c9 - cbc527ae019c / ', '
+                    isCreated ': False}, {'
+                    id ': 1632, '
+                    guest_id ': 168822, '
+                    documentType ': 1, '
+                    expiry ': None, '
+                    documentNumber ': None, '
+                    fileName ': '
+                    id.jpeg ', '
+                    mimeType ': '
+                    image / jpeg ', '
+                    imageId ': '│·········
+                    9 c556e41 - 4417 - 47 b5 - 9316 - cf67dbffaee4 ', '
+                    attachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / properties / 1056 / upload - docs / 9 c556e41 - 4417 - 47 b5 - 9316 - cf67dbffaee4 / ', '
+                    isCreated ': False},│········· {
+                        'id': 1634,
+                        'guest_id': 168822,
+                        'documentType': 1,
+                        'expiry': None,
+                        'documentNumber': None,
+                        'fileName': 'id.jpeg',
+                        'mimeType': 'image/jpeg',
+                        'imageId': '3ff80f1d-4ef9-4427-8ca7-1ccc7e68dc3c',
+                        'a│·········
+                        ttachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / properties / 1056 / upload - docs / 3 ff80f1d - 4 ef9 - 4427 - 8 ca7 - 1 ccc7e68dc3c / ', '
+                        isCreated ': False}, {'
+                        id ': 1635, '
+                        guest_id ': 168822, '
+                        docume│·········
+                        ntType ': 1, '
+                        expiry ': None, '
+                        documentNumber ': None, '
+                        fileName ': '
+                        id.jpeg ', '
+                        mimeType ': '
+                        image / jpeg ', '
+                        imageId ': '
+                        c3ff4fc7 - 86 aa - 433 f - adfb - 4 ffc18e79124 ', '
+                        attachmentSrc ': ' / download - core_metadata - s│·········
+                        ervice - file / accounts / 388 / properties / 1056 / upload - docs / c3ff4fc7 - 86 aa - 433 f - adfb - 4 ffc18e79124 / ', '
+                        isCreated ': False}, {'
+                        id ': 1883, '
+                        guest_id ': 168822, '
+                        documentType ': 1, '
+                        expiry ': '
+                        2020 - 10 - 10 ', '
+                        docu│·········
+                        mentNumber ': None, '
+                        fileName ': '
+                        Aadhaar - card - sample - 300 x212.png ', '
+                        mimeType ': '
+                        image / png ', '
+                        imageId ': '
+                        2 d4eed9e - 0e52 - 48 a1 - b070 - 6155 d7f1381e ', '
+                        attachmentSrc ': ' / download - core_metadata - service - fil│·········
+                        e / accounts / 388 / properties / 719 / upload - docs / 2 d4eed9e - 0e52 - 48 a1 - b070 - 6155 d7f1381e / ', '
+                        isCreated ': False}, {'
+                        id ': 2173, '
+                        guest_id ': 168822, '
+                        documentType ': 6, '
+                        expiry ': '
+                        2020 - 12 - 08 ', '
+                        documentNumber '│·········: '87654',
+                        'fileName': 'Aadhaar-card-sample-300x212.png',
+                        'mimeType': 'image/png',
+                        'imageId': '9639f5c8-84de-4901-b88f-4f9ca3055fad',
+                        'attachmentSrc': '/download-core_metadata-service-file/accoun│·········
+                        ts / 388 / properties / 719 / upload - docs / 9639 f5c8 - 84 de - 4901 - b88f - 4 f9ca3055fad / ', '
+                        isCreated ': False}, {'
+                        id ': 2215, '
+                        guest_id ': 168822, '
+                        documentType ': 6, '
+                        expiry ': '
+                        2021 - 02 - 01 ', '
+                        documentNumber ': '
+                        uuuu9│·········
+                        9999 ', '
+                        fileName ': '
+                        Aadhaar - card - sample - 300 x212.png ', '
+                        mimeType ': '
+                        image / png ', '
+                        imageId ': '
+                        2 b4f7864 - 5e03 - 4 a14 - 80 ce - cb23feca189d ', '
+                        attachmentSrc ': ' / download - core_metadata - service - file / accounts / 3│·········
+                        88 / properties / 719 / upload - docs / 2 b4f7864 - 5e03 - 4 a14 - 80 ce - cb23feca189d / ', '
+                        isCreated ': False}, {'
+                        id ': 2237, '
+                        guest_id ': 168822, '
+                        documentType ': 2, '
+                        expiry ': '
+                        2021 - 02 - 01 ', '
+                        documentNumber ': '
+                        345 ', '
+                        fi│·········
+                        leName ': '
+                        Aadhaar - card - sample - 300 x212.png ', '
+                        mimeType ': '
+                        image / png ', '
+                        imageId ': '
+                        ea9226da - da0a - 4 a69 - aab4 - 2 bfd54c68c16 ', '
+                        attachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / propert│·········
+                        ies / 719 / upload - docs / ea9226da - da0a - 4 a69 - aab4 - 2 bfd54c68c16 / ', '
+                        isCreated ': False}, {'
+                        id ': 2410, '
+                        guest_id ': 168822, '
+                        documentType ': 1, '
+                        expiry ': '
+                        2021 - 05 - 03 ', '
+                        documentNumber ': '
+                        876543 ', '
+                        fileName '│·········: 'Aadhaar-card-sample-300x212.png',
+                        'mimeType': 'image/png',
+                        'imageId': '8eaf1d61-ed0e-40b3-9f8b-4e1c80214d44',
+                        'attachmentSrc': '/download-core_metadata-service-file/accounts/388/properties/719│········· /
+                            upload - docs / 8 eaf1d61 - ed0e - 40 b3 - 9 f8b - 4e1 c80214d44 / ', '
+                        isCreated ': False}, {'
+                        id ': 2412, '
+                        guest_id ': 168822, '
+                        documentType ': 9, '
+                        expiry ': None, '
+                        documentNumber ': None, '
+                        fileName ': '
+                        46260 _1614840608│·········
+                        737. png ', '
+                        mimeType ': '
+                        image / png ', '
+                        imageId ': '
+                        a43df90a - 2 a3d - 42e3 - bdfb - fbe2bfeea14a ', '
+                        attachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / properties / 719 / upload - docs / a43df90a - 2 a3d - │·········
+                        42e3 - bdfb - fbe2bfeea14a / ', '
+                        isCreated ': False}, {'
+                        id ': 2414, '
+                        guest_id ': 168822, '
+                        documentType ': 9, '
+                        expiry ': None, '
+                        documentNumber ': None, '
+                        fileName ': '
+                        46260 _1614840830282.png ', '
+                        mimeType ': '
+                        imag│·········
+                        e / png ', '
+                        imageId ': '
+                        e79b92c7 - b9b9 - 4e31 - a4da - 6e42 c9d9dd8e ', '
+                        attachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / properties / 719 / upload - docs / e79b92c7 - b9b9 - 4e31 - a4da - 6e42 c9d9dd8e / ', '│·········
+                        isCreated ': False}, {'
+                        id ': 2427, '
+                        guest_id ': 168822, '
+                        documentType ': 1, '
+                        expiry ': None, '
+                        documentNumber ': '
+                        234 ', '
+                        fileName ': '
+                        61544560. jpg ', '
+                        mimeType ': '
+                        image / jpeg ', '
+                        imageId ': '
+                        8 a619e0f - 2396 - 43│·········
+                        fd - 8 b7a - 7 b4405a95232 ', '
+                        attachmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / properties / 719 / upload - docs / 8 a619e0f - 2396 - 43 fd - 8 b7a - 7 b4405a95232 / ', '
+                        isCreated ': False}, {'
+                        id ': 2429, '
+                        gu│·········
+                        est_id ': 168822, '
+                        documentType ': 9, '
+                        expiry ': None, '
+                        documentNumber ': None, '
+                        fileName ': '
+                        46264 _1614842517941.png ', '
+                        mimeType ': '
+                        image / png ', '
+                        imageId ': '
+                        39e8 a623 - 1 aea - 4 ee9 - 8238 - cc46285a5a17 ', '
+                        att│·········
+                        achmentSrc ': ' / download - core_metadata - service - file / accounts / 388 / properties / 719 / upload - docs / 39e8 a623 - 1 aea - 4 ee9 - 8238 - cc46285a5a17 / ', '
+                        isCreated ': False}]}}

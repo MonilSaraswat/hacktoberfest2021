@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/be196be553.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+
+    .yanone{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    .raleway{
+        font-family: 'Raleway', sans-serif;
+    }
+    .roboto{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .container{
+        border: 1px solid gray;
+        border-radius: 8px;
+        margin: auto;
+        width: 25%;
+    }
+    .padding-10{
+        padding: 15px;
+    }
+
+    .row:after{
+        content: "";
+        margin: 10px;
+        clear: both;
+    }
+    .column{
+        margin: auto;
+        float: left;
+        width: 30%;
+    }
+    .column-half{
+        margin: auto;
+        float: left;
+        width: 50%;
+    }
+    hr{
+        margin: 0px;
+        padding: 0px;
+    }
+    .left{
+        float: left;
+    }
+    .light-text{
+        color: rgba(128, 128, 128, 0.37)
+    }
+    .column-3{
+        margin: auto;
+        float: left;
+        width: 33%
+    }
+    .right{
+        text-align: right;
+        }
+    .padding-bottom{
+        padding-bottom: 25px;
+    }
+    .margin-top-10{
+        padding-top: 10px;
+    }
+    .button-payment{
+        background-color: rgba(209, 209, 209, 0.521);
+        text-decoration: none ;
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+    }
+    .text-highlight{
+        color: darkgreen;
+        font-weight: bold;
+    }
+    .center{
+        text-align: center;
+    }
+    .bigfont{
+        font-size: 20px;
+    }
+    .largefont{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .mediumfont{
+        font-size: 15px;
+    }
+    .viewfont{
+        font-size:14px;
+    }
+    .smallfont{
+        font-size: 12px;
+    }
+    .margin-bottom-20{
+        margin-bottom: 35px;
+    }
+    .blue{
+        color:rgba(0, 0, 0, 0.87);
+    }
+    .margin-top-5{
+        margin-top: 5px;
+    }
+    .margin-top-3{
+        margin-top: 3px;
+    }
+    .bold{
+        font-weight: bold;
+    }.yanone{
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+    .raleway{
+        font-family: 'Raleway', sans-serif;
+    }
+    .roboto{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .container{
+        border: 1px solid gray;
+        border-radius: 8px;
+        margin: auto;
+        width: 25%;
+    }
+    .padding-10{
+        padding: 15px;
+    }
+
+    .row:after{
+        content: "";
+        margin: 10px;
+        clear: both;
+    }
+    .column{
+        margin: auto;
+        float: left;
+        width: 30%;
+    }
+    .column-half{
+        margin: auto;
+        float: left;
+        width: 50%;
+    }
+    hr{
+        margin: 0px;
+        padding: 0px;
+    }
+    .left{
+        float: left;
+    }
+    .light-text{
+        color: rgba(128, 128, 128, 0.37)
+    }
+    .column-3{
+        margin: auto;
+        float: left;
+        width: 33%
+    }
+    .right{
+        text-align: right;
+        }
+    .padding-bottom{
+        padding-bottom: 25px;
+    }
+    .margin-top-10{
+        padding-top: 10px;
+    }
+    .button-payment{
+        background-color: rgba(209, 209, 209, 0.521);
+        text-decoration: none ;
+        padding: 15px;
+        border-radius: 5px;
+        text-align: center;
+        margin-top: 20px;
+        color: white;
+    }
+    .text-highlight{
+        color: darkgreen;
+        font-weight: bold;
+    }
+    .center{
+        text-align: center;
+    }
+    .bigfont{
+        font-size: 20px;
+    }
+    .largefont{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .mediumfont{
+        font-size: 15px;
+    }
+    .viewfont{
+        font-size:14px;
+    }
+    .smallfont{
+        font-size: 12px;
+    }
+    .margin-bottom-20{
+        margin-bottom: 35px;
+    }
+    .blue{
+        color:rgba(0, 0, 0, 0.87);
+    }
+    .margin-top-5{
+        margin-top: 5px;
+    }
+    .margin-top-3{
+        margin-top: 3px;
+    }
+    .bold{
+        font-weight: bold;
+    }
+    
+
+    </style>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="padding-10"> 
+            <div class="yanone bigfont">Tariff Details</div>
+        </div>
+        <hr>
+        <div class="row padding-10 roboto mediumfont">
+            <div class="column"><span class="bold">Rooms</span> 2</div>
+            <div class="column"><span class="bold">Adults</span> 4</div>
+        </div>
+        <hr>
+
+        <!-- Check in Check Out Area -->
+        
+        <div class="padding-10 roboto">
+        <div class="row">
+            <div class="column-half light-text">
+                <div>Check-In : 2:00 PM</div>
+            </div>
+            <div class="column-half light-text">
+                <div>Check-Out : 12:00 PM</div>
+            </div>
+        </div>
+        <div class="row">
+                <div class="column-half margin-top-5">
+                    <div>23 Sep 2017,Wed</div>
+                </div>
+                <div class="column-half margin-top-5">
+                    <div>23 Sep 2017,Wed</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Check In Check Out Ends -->
+
+        <hr>
+
+        <!-- Available Rooms -->
+
+        <div class="padding-10 roboto margin-bottom-20 blue">
+            <div class="row padding-bottom">
+                <div class="column-3">
+                    <div>SEMI DELUXE</div>
+                    <div class="light-text mediumfont margin-top-3">AC Room Only</div>
+                </div>
+                <div class="column-3 center light-text">
+                    <div><i class="fas fa-pen"></i>&nbsp;&nbsp;X 1</div>
+                </div>
+                <div class="column-3 right">
+                    <div>INR 10,500&nbsp;&nbsp;&nbsp;<i class="fas fa-times"></i></div>
+                </div>
+            </div>            
+
+            <div class="row">
+                <div class="column-3 margin-top-5"> 
+                    <div>SEMI DELUXE</div>
+                    <div class="light-text mediumfont margin-top-3">AC Room With Br...</div>
+                </div>
+                <div class="column-3 center light-text">
+                    <div><i class="fas fa-pen"></i>&nbsp;&nbsp;X 1</div>
+                </div>
+                <div class="column-3 right">
+                    <div>INR 12,750&nbsp;&nbsp;&nbsp;<i class="fas fa-times"></i></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Available Rooms Ends-->
+
+        <hr>
+
+        <!-- Total Payable -->
+    <div class="padding-10 roboto ">
+        <div class="row">
+            <div class="column-half largefont bold">Total Payable</div>
+            <div class="column-half right largefont bold">INR 58,590</div>
+        </div>
+        <div class="row margin-top-10">
+                <div class="column-half text-highlight smallfont">VIEW ALL DETAILS</div>
+            </div>
+
+            <div class="button-payment">PROCEED TO PAYMENT</div>
+
+            <div class="margin-top-10 smallfont">By proceeding you agree to <span class="text-highlight">Hotel Booking Policy, Hotel Cancelation Policy and Terms and Conditions</span> of Ganga Kinare</div>
+        </div>
+        <!-- Total Payable Ends -->
+    </div>   
+</body>
+</html>
